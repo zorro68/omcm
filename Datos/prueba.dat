@@ -1,0 +1,100 @@
+[NUCLEOS]
+Nucleos=1
+Atomo(1,centro)=1
+Atomo(1,znuc)=1
+
+[FBASE]
+numero de funciones de base:
+NumFB=1
+tipo de las funciones de base:
+TipoFB=1
+Normalizacion de las SUBfunciones de base, =0 coef. para SFB no normalizadas, =1 para SFB normalizadas
+NORMSFB=1
+Empleo de funciones recortadas (TSTOs),  =1 son TSTO, =0 son STO, BO o SBO
+Recortadas=0
+Cálculo de integrales nulas (=0 se calculan, =1 se saltan)
+Bielec=0
+
+FBase(1,Centro)=1
+FBase(1,ParteAngular)=0
+FBase(1,NumSFB)=3
+FBase(1,1,Coeficiente)=0.1395901466
+FBase(1,1,Parametro1)=0
+FBase(1,1,Parametro2)=0
+FBase(1,1,Parametro3)=2.2840553
+FBase(1,2,Coeficiente)=0.5419577437
+FBase(1,2,Parametro1)=0
+FBase(1,2,Parametro2)=0
+FBase(1,2,Parametro3)=0.4206755
+FBase(1,3,Coeficiente)=0.4505034103
+FBase(1,3,Parametro1)=0
+FBase(1,3,Parametro2)=0
+FBase(1,3,Parametro3)=0.1099655
+FBase(1,RadioCorte0)=0
+FBase(1,AnchuraCorte0)=0
+FBase(1,RadioCorte1)=0
+FBase(1,AnchuraCorte1)=0
+FBase(1,TipoIntCorte)=0
+FBase(1,Formula)=0.1395901466 Exp(-2.2840553 r^2) + 0.5419577437 Exp(-0.4206755 r^2) + 0.4505034103 Exp(-0.1099655 r^2)
+
+[CENTROS]
+NumCentros=1
+Centro(1,x)=0.
+Centro(1,y)=0.
+Centro(1,z)=0.
+
+[METODOINTEGRACION]
+Metodo=HAM
+Semilla=1
+NumPuntos=10000
+Fichgss=
+
+[INTEGRALES]
+FicheroInt =prueba
+Integrales = 0
+TipoInt = j
+Indice1 = 1
+Indice2 = 1
+Indice3 = 1
+Indice4 = 1
+FPeso(NPolig) = 0
+FPeso(Inicio) = 0
+FPeso(fin) = 0
+FPeso(Incremento) = 0
+
+[METODOCALCULO]
+metodo = HF
+NmaxIter = 3000
+ControlConvergencia = 1
+Tolerancia = 0.1D-008
+FactorAmortiguacion = 0.8
+IteracionComienzoAmortiguacion = 0
+
+[ESTADOELECTRONICO]
+NumOcupAlfa(1)=1
+NumOcupBeta(1)=0
+
+[POTENCIALEXT]
+Potencial(X) = 0
+Potencial(Y) = 0
+Potencial(z) = 0
+
+[PROPIEDADES]
+MomentoDipolar = 1
+Poblaciones = 1
+
+[RESULTADOS]
+Escritura(0) = 1
+Escritura(1) = 1
+Escritura(2) = 1
+Escritura(3) = 1
+Escritura(4) = 1
+Escritura(5) = 1
+Escritura(6) = 1
+Escritura(7) = 1
+Escritura(8) = 1
+Escritura(9) = 1
+Escritura(10) = 1
+Escritura(11) = 1
+Escritura(12) = 1
+Escritura(13) = 1
