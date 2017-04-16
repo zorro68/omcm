@@ -1,0 +1,2 @@
+# OMCM
+Versión sin dll
